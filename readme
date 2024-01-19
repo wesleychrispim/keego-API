@@ -1,0 +1,29 @@
+Este guia fornecerá instruções passo a passo sobre como configurar o ambiente e executar os testes Cypress Cucumber para os cenários de teste fornecidos.
+
+Pré-requisitos
+Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados no seu sistema:
+
+Node.js: Download e Instalação
+Cypress: Execute o seguinte comando para instalar o Cypress globalmente:
+
+npm install -g cypress
+Git: Download e Instalação
+Setup do Projeto
+Clone este repositório para o seu ambiente local:
+Instale as dependências do projeto:
+
+
+npm install
+Execução dos Testes
+Executar os Testes em Modo de Headless (CLI)
+Para executar os testes em modo headless (sem interface gráfica), use o seguinte comando:
+
+npm run test
+Executar os Testes na Interface Gráfica
+Para abrir a interface gráfica do Cypress e executar os testes interativamente, use o seguinte comando:
+
+npm run cypress:open
+Isso abrirá a interface do Cypress, onde você pode selecionar os testes que deseja executar.
+
+Relatórios
+Os relatórios são gerados automaticamente e estão disponíveis após a execução dos testes. Você pode encontrar os resultados na pasta cypress/reports do seu projeto.
